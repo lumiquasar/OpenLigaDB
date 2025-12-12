@@ -43,6 +43,9 @@ OpenLigaDB API -> Make.com HTTP Module -> Iterator (loops through matches) -> Ai
 https://eu1.make.com/public/shared-scenario/eXXphm0VczG/integration-http
 <img width="1150" height="370" alt="εικόνα" src="https://github.com/user-attachments/assets/ab745bcc-c9c7-472f-a032-508b4c70d00f" />
 
+<img width="1251" height="420" alt="εικόνα" src="https://github.com/user-attachments/assets/e8565aba-b96c-4b98-9b72-75f70e182ffd" />
+
+
 
 Schedule Zapier to create weekly CSV files: Zapier -> Schedule by Zapier -> get data through Airtable -> CSV export ->  Google Drive upload -> Gmail
 
