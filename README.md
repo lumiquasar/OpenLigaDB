@@ -40,12 +40,14 @@ Every Sunday, the system exports all matches from the last 7 days into a CSV fil
 ## 📊 Data Flow Diagrams
 OpenLigaDB API -> Make.com HTTP Module -> Iterator (loops through matches) -> Airtable
 
+https://eu1.make.com/public/shared-scenario/eXXphm0VczG/integration-http
 <img width="1150" height="370" alt="εικόνα" src="https://github.com/user-attachments/assets/ab745bcc-c9c7-472f-a032-508b4c70d00f" />
 
 
 Schedule Zapier to create weekly CSV files: Zapier -> Schedule by Zapier -> get data through Airtable -> CSV export ->  Google Drive upload -> Gmail
 
-<img width="343" height="802" alt="εικόνα" src="https://github.com/user-attachments/assets/29543f4c-f44a-41c1-b6fe-7007727ebdb9" />
+<img width="306" height="740" alt="εικόνα" src="https://github.com/user-attachments/assets/7dc2480e-513c-4eb0-9abf-eb958ca274c3" />
+
 
 
 ## 📚 API Reference
