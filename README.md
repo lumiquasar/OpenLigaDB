@@ -1,7 +1,6 @@
-# ⚽ OpenLigaDB Automated Football Data
-### Built with Make.com → Airtable → Gmail
+### Built with Make.com → Airtable → Zapier → Gmail
 
-This project demonstrates a full no-code data automation pipeline using **OpenLigaDB**, **Make.com**, **Airtable**, **Google Sheets** and **Gmail**.
+This project demonstrates a full no-code data automation pipeline using **OpenLigaDB**, **Make.com**, **Airtable**,**Zapier**, **EasyCSV** and **Gmail**.
 
 It was created as a portfolio project for a No-Code Developer role.
 
@@ -15,7 +14,7 @@ https://www.openligadb.de/api/getmatchdata/bl1/2025
 
 
 ### ✔ 2. Real-Time Notifications
-Whenever a match ends, an email is automatically sent via Gmail:
+Each day, an email is automatically sent via Gmail with info about the daily matches
 - League
 - Teams
 - Final score
@@ -38,8 +37,15 @@ Every Sunday, the system exports all matches from the last 7 days into a CSV fil
 
 ---
 
-## 📊 Data Flow Diagram
-OpenLigaDB API -> Make.com HTTP Module -> Iterator (loops through matches) -> Airtable / Sheets storage -> Router 1) Match finished → Gmail summary 2) Weekly scheduler → CSV export
+## 📊 Data Flow Diagrams
+OpenLigaDB API -> Make.com HTTP Module -> Iterator (loops through matches) -> Airtable
+
+<img width="1150" height="370" alt="εικόνα" src="https://github.com/user-attachments/assets/ab745bcc-c9c7-472f-a032-508b4c70d00f" />
+
+
+Schedule Zapier to create weekly CSV files: Zapier -> Schedule by Zapier -> get data through Airtable -> CSV export ->  Google Drive upload -> Gmail
+
+<img width="343" height="802" alt="εικόνα" src="https://github.com/user-attachments/assets/29543f4c-f44a-41c1-b6fe-7007727ebdb9" />
 
 
 ## 📚 API Reference
