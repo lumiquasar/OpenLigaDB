@@ -1,6 +1,6 @@
 ### Built with Make.com → Airtable → Zapier → Gmail
 
-This project demonstrates a full no-code data automation pipeline using **OpenLigaDB**, **Make.com**, **Airtable**,**Zapier**, **EasyCSV** and **Gmail**.
+This project demonstrates a full no-code data automation pipeline using OpenLigaDB, Make.com, Airtable, Zapier, EasyCSV and Gmail.
 
 It was created as a portfolio project for a No-Code Developer role.
 
